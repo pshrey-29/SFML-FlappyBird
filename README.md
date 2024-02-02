@@ -1,8 +1,9 @@
 # Flappy Bird
+
 This is a simple Flappy Bird game implemented in C++ using the Simple and Fast Multimedia Library (SFML).
 
-## How to use?
-Configure and build your project. Most popular IDEs support CMake projects with very little effort on your part.
+## Instructions on setting up the project.
+1. Configure and build your project. Most popular IDEs support CMake projects with very little effort on your part.
     - [VS Code](https://code.visualstudio.com) via the [CMake extension](https://code.visualstudio.com/docs/cpp/cmake-linux)
     - [Visual Studio](https://docs.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-170)
     - [CLion](https://www.jetbrains.com/clion/features/cmake-support.html)
