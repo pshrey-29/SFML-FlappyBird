@@ -12,6 +12,7 @@ public:
 	void update(float deltaTime);
 	void draw(sf::RenderWindow& window) { window.draw(body); }
 
+	sf::Vector2f getPosition() { return body.getPosition(); }
 	void setPosition(sf::Vector2f newPosition) { body.setPosition(newPosition); }
 	void setVelocity(sf::Vector2f newVelocity) { velocity = newVelocity; }
 

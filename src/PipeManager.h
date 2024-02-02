@@ -21,6 +21,6 @@ public:
 
 private:
 	sf::Vector2f spawnPosition;
-	float gap;
+	float halfgap;
 };
 

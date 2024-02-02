@@ -26,7 +26,9 @@ bool Player::isCircleRectangleCollision(sf::FloatRect& rectBounds)
 
 	if (rectBounds.left - circleRadius > circleCenter.x) return false;
 	if (rectBounds.top - circleRadius > circleCenter.y) return false;
-	if (rectBounds.top + rectBounds.width + circleRadius < circleCenter.y) return false;
+	if (rectBounds.top + rectBounds.height + circleRadius < circleCenter.y) return false;
+	if (rectBounds.left + rectBounds.width + circleRadius < circleCenter.x) return false;
+
 	return true;
 }
 

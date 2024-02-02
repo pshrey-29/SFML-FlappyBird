@@ -12,8 +12,11 @@ FetchContent_MakeAvailable(SFML)
 
 set(SOURCES 
     src/main.cpp
+    src/Player.h
     src/Player.cpp
+    src/PipeManager.h
     src/PipeManager.cpp
+    src/Pipe.h
     src/Pipe.cpp
 )
 

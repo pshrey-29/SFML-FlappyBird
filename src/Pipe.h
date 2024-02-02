@@ -9,13 +9,17 @@ public:
 	void update(float deltaTime);
 	void draw(sf::RenderWindow& window) { window.draw(body); }
 
+	bool checkForPoint(float playerPositionX);
 	sf::Vector2f getPosition() { return body.getPosition(); }
 	void setPosition(sf::Vector2f newPosition);
 	void setOrigin(float x, float y);
 	sf::FloatRect getBounds() { return body.getGlobalBounds(); }
 
-private :
+	void changeColor() { body.setFillColor(sf::Color::Green); }
+
+private:
 	sf::RectangleShape body;
 	sf::Vector2f velocity;
+	bool isPointCollected;
 };
 
